@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="mine.js"></script>
+  <title>Document</title>
+  <style>
+    
+    *{
+      text-align: center;
+    }
+    .haid{
+      display: none;
+    }
+    .show{
+      display: block;
+      color: red;
+      text-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    }
+    #input-color{
+      display: block;
+      justify-content: center;
+      margin: 20px auto 20px auto;
+    }
+    h1{
+      text-transform: uppercase;
+      margin: 0;
+      color: rgba(0, 157, 255, 0.445);
+    }
+    h2{
+      margin: 10px 10px;
+      text-transform: uppercase;
+    }
+    #urColor{
+      display: flex;
+      justify-content: center;
+      margin: 10px auto;
+      height: 100px;
+      width: 200px;
+      border-radius: 25px;
+      box-shadow: rgba(0, 0, 0, 0.539) 0px 14px 28px, rgba(0, 0, 0, 0.501) 0px 10px 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="asd" id="input-color">
+    <h1>mix the color</h1>
+    <h1>اخلط الالوان</h1>
+    <h2>red احمر</h2>
+    <input value="0" id="input1"  type="number">
+    <h2>green اخضر</h2>
+    <input value="0" id="input2"  type="number">
+    <h2>blue ازرق</h2>
+    <input value="0" id="input3" type="number">
+    <div>
+      <div id="urColor"></div>
+    </div>
+  </div>
+  <div class="haid" id="wrong">
+    <h2>the value only between (0 to 255)</h2>
+    <h2>القيمه المتاحه فقط من( ٠ الي ٢٥٥) </h2>
+  </div>
+
+</body>
+</html>
