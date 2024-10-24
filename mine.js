@@ -38,6 +38,4 @@ inputColor.addEventListener("input", () => {
 //   toChoose();
 // });
 
-// inputColor.addEventListener("input", () => {
-//   toChoose();
-// });
+
